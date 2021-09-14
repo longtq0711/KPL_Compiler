@@ -1,0 +1,8 @@
+Program D1;
+Var 	a,b : integer;
+	b,c : integer;
+BEGIN
+	a:= 24;
+	b:= 36;
+	Call WriteI(b);
+END.

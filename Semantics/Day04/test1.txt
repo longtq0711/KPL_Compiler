@@ -1,0 +1,7 @@
+Program TESTA1; (* Test khai bao don gian *)
+Const MAX = 100;
+Type Vector = Array(.10.) Of Integer;
+VAR M : Integer;
+Begin
+
+End.

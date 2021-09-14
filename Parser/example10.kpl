@@ -1,0 +1,13 @@
+Program D1; // test 
+Var 	a, m: integer;
+	b, c, d: integer;
+Begin
+	a:= 24;
+	b:= 36;
+	a := 2**n;
+	a:= a > b-1 ? c-1 : d-2;
+	/* While a!= b Do
+	 If a <> b Then a:= a - b
+	 Else b:= b - a; */
+	Call WriteI(b);
+End.

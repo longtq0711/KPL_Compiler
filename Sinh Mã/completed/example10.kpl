@@ -1,0 +1,11 @@
+Program D1;
+Var 	a: integer;
+	b: integer;
+Begin
+	a:= 54;
+	b:= 36;
+	While a!= b Do
+	 If a > b Then a:= a - b
+	 Else b:= b - a;
+	Call WriteI(b);
+End.

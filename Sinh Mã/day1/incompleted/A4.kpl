@@ -1,0 +1,7 @@
+Program Toto;
+Var  S: integer; 
+     N: integer;
+
+Begin
+   
+End.

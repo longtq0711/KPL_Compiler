@@ -1,0 +1,24 @@
+PROGRAM  EXAMPLE4;  (* Example 4 *)
+VAR  N : INTEGER;
+     Result : INTEGER;
+     I : INTEGER;
+
+BEGIN
+  N := READI;
+  Result := 1;
+  FOR i := 1 TO N DO
+     Result := Result * 2;
+  CALL WRITEI(Result);
+
+  SWITCH 1
+  BEGIN
+    case 1:
+      FOR i := 1 TO N DO
+        Result := Result * 2;
+    case 1:
+      FOR i := 1 TO N DO
+        Result := Result * 2;
+    default: 
+  END;
+
+END.  (* Example 4 *)

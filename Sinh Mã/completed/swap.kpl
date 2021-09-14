@@ -1,0 +1,15 @@
+Program D2;
+Var a:integer;
+    b:integer;
+Procedure Swap(Var a:Integer; Var b:Integer);
+	Var T:Integer;
+	Begin
+		T:=a;
+		a:=b;
+		b:=t;
+	End;
+Begin
+	a:=10;
+	b:=25;
+	CALL Swap(a,b);
+End.

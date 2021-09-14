@@ -1,0 +1,10 @@
+Program BaiThi;
+Const Max = 10;
+Type Vector = Array(. .) of Integer;
+Procedure Foo(VAR a:Integer; N:Integer);
+	Var S: Integer;
+	    B: Vector;
+	    M: Integer;
+	Begin	End;
+Begin	End.		
+	
